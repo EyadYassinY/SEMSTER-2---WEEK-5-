@@ -1,17 +1,8 @@
 <html>
 <head>
     <title>Test Page</title>
-    <style type="text/css">
-p { color: white; }
-p { margin: 0 0 0.5em 0; }
-h1, h2 {margin: 10pt 0 2pt 0;}
-h1, h2 {margin: 0.83em 0 0.17em 0; }
-p:first-of-type {
-  font: 0.17em/1.33 Verdana, sans-serif;
-}
-p + p { text-indent: 5em; }
-body { background: red url(cat.jpg) no-repeat fixed top left; }
-</style>
+<link rel="stylesheet" type="text/css" href="web-styles.css" media="screen" title="Basic" />
+<script src="script.js"></script>
 
 </head>
 
@@ -31,7 +22,7 @@ body { background: red url(cat.jpg) no-repeat fixed top left; }
         <li> This is point 3.</li>
     </ol>
 
-    <table>
+    <table onclick="name()">
         <thead>
             <tr>
                 <th>1</th>

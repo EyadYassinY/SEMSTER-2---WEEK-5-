@@ -1,0 +1,9 @@
+p { color: white; }
+p { margin: 0 0 0.5em 0; }
+h1, h2 {margin: 10pt 0 2pt 0;}
+h1, h2 {margin: 0.83em 0 0.17em 0; }
+p:first-of-type {
+  font: 0.17em/1.33 Verdana, sans-serif;
+}
+p + p { text-indent: 5em; }
+body { background: black url(cat.jpg) no-repeat fixed top left; }
